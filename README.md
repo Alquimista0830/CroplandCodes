@@ -6,9 +6,8 @@ Including TIFF read, morphological opening-and-closing operation, and TIFF write
 Input: path of TIFFs the user need.
 Output: path to output the TIFFs after preprocessing. 
 
-%2--- mosaic.py
-Mosaic all TIFFs covering the region user needed, then build pyramid.
-Before running, a TXT file should be prepared, which include the filename list of all TIFFs. e.g. "filelist2020.txt"
+%2--- field_shape_indicators.py
+This code is mainly used to calculate the geometric characteristics of agricultural fields, including main directions, regularity and continuity.
 
-%3---open the image 
-Then the datasets could be visualized in ArcGIS or QGIS software.
+%3---open the data 
+Then the shpfiles could be visualized in ArcGIS or QGIS software.
